@@ -9,7 +9,7 @@ El taller se puede completar a su propio ritmo dependiendo de su experiencia pre
 
 ### **1-Día Formato**
 
-#### Slides: [Azure Data Platform End2End - 1 Day](Slides/Azure%20Data%20Platform%20End2End%20-%201Day.pptx)
+#### Slides: [Azure Data Platform End2End - 1 Day](https://bit.ly/2SEqPPB)
 
 Actividad | Duración
 -------- | ---------
