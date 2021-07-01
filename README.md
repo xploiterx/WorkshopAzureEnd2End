@@ -1,4 +1,4 @@
-# Azure Data Platform End2End -2
+# Azure Data Platform End2End V2
 
 En este taller aprenderá sobre los conceptos principales relacionados con la analítica avanzada y el procesamiento de Big Data y cómo se puede utilizar Azure Data Services para implementar una arquitectura de almacenamiento de datos moderna. Así mismo Aprenderá qué servicios de Azure puede aprovechar para establecer una plataforma de datos sólida para ingerir, procesar y visualizar rápidamente datos de una gran variedad de fuentes de datos. Se ha demostrado que la arquitectura de referencia que creará como parte de este ejercicio le brinda la flexibilidad y escalabilidad para crecer y manejar grandes volúmenes de datos y mantener un nivel óptimo de rendimiento.
 
@@ -116,7 +116,7 @@ Step     | Description
 ![3](./Media/Black3.png) | Cargar datos en una tabla de Azure Synapse Analytics con Polybase
 ![4](./Media/Black4.png) | VVisualice datos de Azure Synapse Analytics con Power BI
 
-![](./Lab/Lab1/Media/Lab1-Image51.png)
+![](./Media/Lab1-Image51.png)
 
 ### [Lab 2: Transformar macrodatos utilizando flujos de datos de mapeo de Azure Data Factory](https://bit.ly/2SEqPPB)
 En este laboratorio, el conjunto de datos que usará contiene viajes detallados en taxis amarillos de la ciudad de Nueva York durante el primer semestre de 2019. Utilizará Azure Data Factory para descargar archivos de datos grandes en su lago de datos. Generará un resumen agregado diario de todos los viajes desde el lago de datos mediante Mapeo de flujos de datos y guardará el conjunto de datos resultante en Azure Synapse Analytics. Utilizará Power BI para visualizar datos resumidos de viajes en taxi.
@@ -131,7 +131,7 @@ Step     | Descripción
 ![](./Media/Green3.png) | Use Mapping Data Flows para generar un resumen diario agregado y guarde el conjunto de datos resultante en su almacén de datos de Azure Synapse.
 ![](./Media/Green4.png) | Visualice datos de Azure Synapse Analytics con Power BI
 
-![](./Lab/Lab2/Media/Lab2-Image40.png)
+![](./Media/Lab2-Image40.png)
 
 ### [Lab 3: Explore Big Data using Azure Databricks](https://bit.ly/2SEqPPB)
 En este laboratorio, usará Azure Databricks para explorar los archivos de datos de taxis de Nueva York que guardó en su lago de datos en el Laboratorio 2. Con un cuaderno de Databricks, se conectará al lago de datos y consultará los detalles del viaje en taxi para la limpieza de datos y para aplicar la columna estándar. definiciones para el conjunto de datos resultante. Al finalizar, el conjunto de datos resultante debe guardarse en una tabla Spark utilizando archivos Parquet que se encuentran en el contenedor NYCTaxiData-Curated en su cuenta de almacenamiento SynapseDataLake.
@@ -143,7 +143,7 @@ Step     | Description
 ![](./Media/Red1.png) |Build an Azure Databricks notebook to explore the data files you saved in your data lake in the previous exercise. You will use Python and SQL commands to open a connection to your data lake and query data from data files.
 ![](./Media/Red2.png) |Integrate datasets from Azure Synapse Analytics data warehouse to your big data processing pipeline. Databricks becomes the bridge between your relational and non-relational data stores.
 
-![](./Lab/Lab3/Media/Lab3-Image14.png)
+![](./Media/Lab3-Image14.png)
 
 ### [Lab 4: Agregue IA a su canalización de Big Data con Cognitive Services](https://bit.ly/2SEqPPB)
 En este laboratorio, utilizará Azure Data Factory para descargar imágenes de la ciudad de Nueva York en su lago de datos. Luego, como parte de la misma canalización, usará un cuaderno de Azure Databricks para invocar el Servicio cognitivo de visión por computadora para generar documentos de metadatos y guardarlos en su lago de datos. Luego, la canalización de Azure Data Factory finaliza al guardar toda la información de metadatos en una colección de Cosmos DB. Utilizará Power BI para visualizar imágenes de la ciudad de Nueva York y sus metadatos generados por IA.
@@ -159,7 +159,7 @@ Step     | Description
 ![](./Media/Blue5.png) | Copie documentos JSON de metadatos en su base de datos de Cosmos DB
 ![](./Media/Blue6.png) | Visualice imágenes y metadatos asociados con Power BI
 
-![](./Lab/Lab4/Media/Lab4-Image70.png)
+![](./Media/Lab4-Image70.png)
 
 ### [Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics](https://bit.ly/2SEqPPB)
 En este laboratorio, utilizará una aplicación Azure Logic para simular un flujo de transacciones de compra de acciones de NYSE. La aplicación lógica enviará los mensajes a Event Hubs. Luego, utilizará Stream Analytics para recibir y procesar el flujo y realizar agregaciones para calcular el número de transacciones y la cantidad negociada en los últimos 10 segundos. Stream Analytics enviará los resultados a un conjunto de datos en tiempo real en Power BI.
@@ -174,4 +174,4 @@ Step     | Description
 ![](./Media/Orange4.png) | Incorpore datos de referencia de la compañía de valores en su lógica de procesamiento de flujo
 ![](./Media/Orange5.png) | Visualice datos en tiempo real generados por Stream Analytics con Power BI
 
-![](./Lab/Lab5/Media/Lab5-Image66.png)
+![](./Media/Lab5-Image66.png)
