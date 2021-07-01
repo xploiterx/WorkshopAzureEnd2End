@@ -2,10 +2,14 @@
 
 En este taller aprenderá sobre los conceptos principales relacionados con la analítica avanzada y el procesamiento de Big Data y cómo se puede utilizar Azure Data Services para implementar una arquitectura de almacenamiento de datos moderna. Así mismo Aprenderá qué servicios de Azure puede aprovechar para establecer una plataforma de datos sólida para ingerir, procesar y visualizar rápidamente datos de una gran variedad de fuentes de datos. Se ha demostrado que la arquitectura de referencia que creará como parte de este ejercicio le brinda la flexibilidad y escalabilidad para crecer y manejar grandes volúmenes de datos y mantener un nivel óptimo de rendimiento.
 
-En los ejercicios de este laboratorio, creará canalizaciones de datos utilizando datos relacionados con la ciudad de Nueva York. El taller fue diseñado para implementar progresivamente una arquitectura de plataforma de datos moderna extendida a partir de una canalización de datos relacionales tradicional. Luego presentamos escenarios de big data con archivos de datos grandes y computación distribuida. Agregamos datos no estructurados e inteligencia artificial a la mezcla y terminamos con análisis de transmisión en tiempo real. Habrá hecho todo eso al final del taller.
+En los ejercicios de este laboratorio, creará canalizaciones de datos utilizando datos relacionados con la ciudad de Nueva York. El taller fue diseñado para implementar progresivamente una arquitectura de plataforma de datos moderna extendida a partir de una canalización de datos relacionales tradicional. Luego simularemos escenarios de big data con archivos de datos y computación distribuida. Agregamos datos no estructurados e inteligencia artificial a la mezcla y terminamos con análisis de transmisión en tiempo real. Habrá hecho todo eso al final del taller.
+
+**Nota** Este taller es parte de un curso que estará publicado en la plataforma Udemy con el objetivo de ofrecer certificación que valide las competencias realizadas en este taller. Por otro lado, cabe destacar que no fue posible ofrecer en esta plataforma la integración de este taller junto con sus laboratorios por temas de precios. Esto obedece a que - en udemy - todos los cursos publicados no tienen un costo fijo - sino que, por el contrario, son elásticos; es decir, si este taller tiene un costo entre la teoría + los laboratorios en entornos reales Azure alrededor de 100 dólares - Udemy, a través de sus algoritmos podrían rebajarlo a 20 o 15 dólares lo que, en la practica, sería imposible ofrecer los laboratorios bajo esta primicia ya que, como todos ustedes sabrán, estos laboratorios tienen costos fijo en nuestra plataforma Azure.
+
+Por esto, y para las personas que a futuro tomarán este curso a través de udemy - tendrán dos opciones – realizarlo con sus propias suscripciones Azure o a través de nuestra plataforma con un costo fijo sin comprometer sus tarjetas de crédito para estos laboratorios.
 
 ## Workshop Agenda Propuesta
-El taller se puede completar a su propio ritmo dependiendo de su experiencia previa con las herramientas de Azure DP. Las diapositivas de apoyo están disponibles para cada formato.
+El taller se puede completar a su propio ritmo dependiendo de su experiencia previa con las herramientas de Azure DP. Las diapositivas de apoyo estarán disponibles para cada formato.
 
 ### **1-Día Formato**
 
