@@ -95,7 +95,7 @@ Al final del taller, habrá implementado la arquitectura del laboratorio a la qu
 
 ![](./Media/LabArchitecture.jpg)
 
-### [Lab 0: Deploy Azure Data Platform End2End to your subscription](./Deploy/Deploy.md)
+### [Lab 0: Deploy Azure Data Platform End2End to your subscription](https://bit.ly/2SEqPPB)
 
 **IMPORTANTE**: debe omitir este laboratorio si está ejecutando los labs a través de las suscripciones proporcionadas por TeamWorks. Todos los servicios de Azure se implementarán cuando active su registro.
 
@@ -118,7 +118,7 @@ Step     | Description
 
 ![](./Lab/Lab1/Media/Lab1-Image51.png)
 
-### [Lab 2: Transformar macrodatos utilizando flujos de datos de mapeo de Azure Data Factory]
+### [Lab 2: Transformar macrodatos utilizando flujos de datos de mapeo de Azure Data Factory](https://bit.ly/2SEqPPB)
 En este laboratorio, el conjunto de datos que usará contiene viajes detallados en taxis amarillos de la ciudad de Nueva York durante el primer semestre de 2019. Utilizará Azure Data Factory para descargar archivos de datos grandes en su lago de datos. Generará un resumen agregado diario de todos los viajes desde el lago de datos mediante Mapeo de flujos de datos y guardará el conjunto de datos resultante en Azure Synapse Analytics. Utilizará Power BI para visualizar datos resumidos de viajes en taxi.
 
 El tiempo estimado para completar esta práctica de laboratorio es de: **60 minutos**.
@@ -133,10 +133,10 @@ Step     | Descripción
 
 ![](./Lab/Lab2/Media/Lab2-Image40.png)
 
-### [Lab 3: Explore Big Data using Azure Databricks](./Lab/Lab3/Lab3.md)
-In this lab you will use Azure Databricks to explore the New York Taxi data files you saved in your data lake in Lab 2. Using a Databricks notebook you will connect to the data lake and query taxi ride details for data cleasning and to apply standard column definitions for the resulting dataset. At the completion,  The resulting dataset should be saved in a Spark table using Parquet files sitting in the NYCTaxiData-Curated container in your SynapseDataLake storage account.
+### [Lab 3: Explore Big Data using Azure Databricks](https://bit.ly/2SEqPPB)
+En este laboratorio, usará Azure Databricks para explorar los archivos de datos de taxis de Nueva York que guardó en su lago de datos en el Laboratorio 2. Con un cuaderno de Databricks, se conectará al lago de datos y consultará los detalles del viaje en taxi para la limpieza de datos y para aplicar la columna estándar. definiciones para el conjunto de datos resultante. Al finalizar, el conjunto de datos resultante debe guardarse en una tabla Spark utilizando archivos Parquet que se encuentran en el contenedor NYCTaxiData-Curated en su cuenta de almacenamiento SynapseDataLake.
 
-The estimated time to complete this lab is: **45 minutes**.
+El tiempo estimado para completar esta práctica de laboratorio es:  **45 minutos**.
 
 Step     | Description
 -------- | -----
@@ -145,19 +145,19 @@ Step     | Description
 
 ![](./Lab/Lab3/Media/Lab3-Image14.png)
 
-### [Lab 4: Add AI to your Big Data Pipeline with Cognitive Services](./Lab/Lab4/Lab4.md)
-In this lab you will use Azure Data Factory to download New York City images to your data lake. Then, as part of the same pipeline, you are going to use an Azure Databricks notebook to invoke Computer Vision Cognitive Service to generate metadata documents and save them in back in your data lake. The Azure Data Factory pipeline then finishes by saving all metadata information in a Cosmos DB collection. You will use Power BI to visualise NYC images and their AI-generated metadata.
+### [Lab 4: Agregue IA a su canalización de Big Data con Cognitive Services](https://bit.ly/2SEqPPB)
+En este laboratorio, utilizará Azure Data Factory para descargar imágenes de la ciudad de Nueva York en su lago de datos. Luego, como parte de la misma canalización, usará un cuaderno de Azure Databricks para invocar el Servicio cognitivo de visión por computadora para generar documentos de metadatos y guardarlos en su lago de datos. Luego, la canalización de Azure Data Factory finaliza al guardar toda la información de metadatos en una colección de Cosmos DB. Utilizará Power BI para visualizar imágenes de la ciudad de Nueva York y sus metadatos generados por IA.
 
-The estimated time to complete this lab is: **75 minutes**.
+El tiempo estimado para completar esta práctica de laboratorio es: **75 minutos**.
 
 Step     | Description
 -------- | -----
-![](./Media/Blue1.png) | Build an Azure Data Factory Pipeline to copy image files from shared Azure Storage
-![](./Media/Blue2.png) | Save image files to your data lake
-![](./Media/Blue3.png) | For each image in your data lake, invoke an Azure Databricks notebook that will take the image URL as parameter
-![](./Media/Blue4.png) | For each image call the Azure Computer Vision Cognitive service to generate image metadata. Metadata files are saved back in your data lake
-![](./Media/Blue5.png) | Copy metadata JSON documents into your Cosmos DB database
-![](./Media/Blue6.png) | Visualize images and associated metadata using Power BI
+![](./Media/Blue1.png) | Cree una canalización de Azure Data Factory para copiar archivos de imagen desde Azure Storage compartido
+![](./Media/Blue2.png) | Guarde archivos de imagen en su lago de datos
+![](./Media/Blue3.png) | Para cada imagen en su lago de datos, invoque un cuaderno de Azure Databricks que tomará la URL de la imagen como parámetro.
+![](./Media/Blue4.png) | Para cada imagen, llame al servicio Cognitivo de Azure Computer Vision para generar metadatos de imagen. Los archivos de metadatos se guardan nuevamente en su lago de datos
+![](./Media/Blue5.png) | Copie documentos JSON de metadatos en su base de datos de Cosmos DB
+![](./Media/Blue6.png) | Visualice imágenes y metadatos asociados con Power BI
 
 ![](./Lab/Lab4/Media/Lab4-Image70.png)
 
