@@ -8,6 +8,8 @@ En los ejercicios de este laboratorio, creará canalizaciones de datos utilizand
 
 Por esto, y para las personas que a futuro tomarán este curso a través de udemy - tendrán dos opciones – realizarlo con sus propias suscripciones Azure o a través de nuestra plataforma con un costo fijo sin comprometer sus tarjetas de crédito para estos laboratorios.
 
+**Nota2** ¿Por qué deberías realizar este taller junto con sus laboratorios? Si bien, la teoría de la nube es de muy alto valor - pero la practica es lo que realmente añade el valor agregado en los entornos Cloud - Por esto los talleres + laboratorios tienden a reforzar los conocimientos adquiridos ampliando todo el contexto de aprendizaje.
+
 ## Workshop Agenda Propuesta
 El taller se puede completar a su propio ritmo dependiendo de su experiencia previa con las herramientas de Azure DP. Las diapositivas de apoyo estarán disponibles para cada formato.
 
@@ -67,71 +69,67 @@ Los datos de la ciudad de Nueva York utilizados en este laboratorio se obtuviero
 ## Implementación y requisitos previos del laboratorio
 Se deben completar los siguientes requisitos previos antes de comenzar con estos labs:
 
-* You must be connected to the internet;
+* Debe estar conectado a Internet.
 
-* Use either Edge or Chrome when executing the labs. Internet Explorer may have issues when rendering the UI for specific Azure services.
+* Utilice Edge o Chrome al ejecutar los labs. Internet Explorer puede tener problemas al representar la interfaz de usuario para servicios específicos de Azure.
 
-* You must have a Pay-As-You-Go Azure account with administrator- or contributor-level access to your subscription. If you don’t have an account, you can sign up for an account following the instructions here: https://azure.microsoft.com/en-au/pricing/purchase-options/pay-as-you-go/.
+* Debe tener una cuenta de Azure Pay-As-You-Go con acceso de nivel de administrador o colaborador en su suscripción. Si no tiene una cuenta, puede registrarse para obtener una siguiendo las instrucciones aquí: https://azure.microsoft.com/en-au/pricing/purchase-options/pay-as-you-go/.
 
-    <br>**IMPORTANT**: Azure free subscriptions have quota restrictions that prevent the workshop resources from being deployed successfully. Please use a Pay-As-You-Go subscription instead.
+    <br>**IMPORTANTE**: las suscripciones gratuitas de Azure tienen restricciones de cuota que impiden que los recursos del taller se implementen correctamente. En su lugar, utilice una suscripción de pago por uso.
 
-    <br>**IMPORTANT**: When you deploy the lab resources in your own subscription you are responsible for the charges related to the use of the services provisioned. For more information about the list of services and tips on how to save money when executing these labs, please visit the Cost Management section of the [Lab 0: Deploy Azure Data Platform End2End to your subscription](./Deploy/Deploy.md) page.
+    <br>**IMPORTANTE**:Cuando implementa los recursos del laboratorio en su propia suscripción, usted es responsable de los cargos relacionados con el uso de los servicios proporcionados. Para obtener más información sobre la lista de servicios y sugerencias sobre cómo ahorrar dinero al ejecutar estos laboratorios, nosotros te proporcionaremos, una vez comiences con estos labs,  tips para la administración y reducción de costos.
 
-* Labs 1 to 4 require you to open a Remote Desktop Connection (RDP) to Azure Virtual Machines. If you are using a Mac, please ensure you have the latest version of the Microsoft Remote Desktop software installed: https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12
+* Los laboratorios 1 a 4 requieren que abra una conexión de escritorio remoto (RDP) a Azure Virtual Machines. Si está utilizando una Mac, asegúrese de tener instalada la última versión del software Microsoft Remote Desktop: https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12
 
-* Lab 5 requires you to have a Power BI Pro account. If you don’t have an account you can sign up for a 60-day trial for free here: https://powerbi.microsoft.com/en-us/power-bi-pro/
+* Lab 5 requiere que tenga una cuenta de Power BI Pro. Si no tiene una cuenta, puede registrarse para una prueba gratuita de 60 días aquí: https://powerbi.microsoft.com/en-us/power-bi-pro/
   
-## Lab Guide
+## Guía de laboratorio
 
-Throughout a series of 5 labs you will progressively implement a modern data platform architecture using datasets from New York City. 
+A lo largo de una serie de 5 laboratorios, implementará progresivamente una arquitectura de plataforma de datos moderna utilizando conjuntos de datos de la ciudad de Nueva York.
 
-You will start ingesting relational data about motorvehicle collisions in Manhattan hosted in an Azure SQL Database into your Azure Synapse Analytics data warehouse. Then we will introduce the concepts of data lake and  big data challenges and you will put these into practice by ingesting and processing over 50 million yellow taxi ride records stored as large data files stored in your data lake.
+Comenzará a ingerir datos relacionales sobre colisiones de vehículos motorizados en Manhattan alojados en una base de datos SQL de Azure en su almacén de datos de Azure Synapse Analytics. Luego, presentaremos los conceptos de lago de datos y desafíos de big data y los pondrá en práctica mediante la ingesta y el procesamiento de más de 50 millones de registros de viajes en taxis amarillos almacenados como archivos de datos grandes almacenados en su lago de datos.
 
-You will then use Databricks and the power of Spark clusters to explore big data files. Then you will incorporate AI into your data pipeline by invoking the Cognitive Services Computer Vision API to automatically generate metadata for New York City street photographs and store the metadata in a Cosmos DB database. Finally, you will use a LogicApp to simulate high-frequency stock purchase transactions as a source of streaming events that you will capture, store and process in real time with Event Hubs, Stream Analytics and Power BI.
+Luego, usará Databricks y el poder de los clústeres Spark para explorar archivos de big data. Luego, incorporará AI en su canal de datos invocando la API de Cognitive Services Computer Vision para generar automáticamente metadatos para fotografías de calles de la ciudad de Nueva York y almacenar los metadatos en una base de datos de Cosmos DB. Finalmente, utilizará una LogicApp para simular transacciones de compra de acciones de alta frecuencia como fuente de transmisión de eventos que capturará, almacenará y procesará en tiempo real con Event Hubs, Stream Analytics y Power BI.
 
-By the end of the workshop you will have implemented the lab architecture referenced below:
+Al final del taller, habrá implementado la arquitectura del laboratorio a la que se hace referencia a continuación:
 
 ![](./Media/LabArchitecture.jpg)
 
 ### [Lab 0: Deploy Azure Data Platform End2End to your subscription](./Deploy/Deploy.md)
 
-**IMPORTANT**: You should skip this Lab if you are executing the labs through subscriptions provided by CloudLabs. All Azure services will be deployed as you activate your registration.
+**IMPORTANTE**: debe omitir este laboratorio si está ejecutando los labs a través de las suscripciones proporcionadas por TeamWorks. Todos los servicios de Azure se implementarán cuando active su registro.
 
-In this section you will automatically provision all Azure resources required to complete labs 1 though to 5. We will use a pre-defined ARM template with the definition of all Azure services used to ingest, store, process and visualise data. 
+En esta sección, proporcionará automáticamente todos los recursos de Azure necesarios para completar los laboratorios del 1 al 5. Usaremos una plantilla ARM predefinida con la definición de todos los servicios de Azure utilizados para ingerir, almacenar, procesar y visualizar datos.
 
-The estimated time to complete this lab is: **30 minutes**.
+El tiempo estimado para completar esta práctica de laboratorio es de: **30 minutos**.
 
-**IMPORTANT**|
--------------|
-**In order to avoid potential delays caused by issues found during the ARM template deployment it is recommended you execute Lab 0 prior to Day 1.**|
+### [Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines]
 
-### [Lab 1: Load Data into Azure Synapse Analytics using Azure Data Factory Pipelines](./Lab/Lab1/Lab1.md)
+En este laboratorio, el conjunto de datos que usará contiene datos sobre colisiones de vehículos motorizados que ocurrieron en New York City desde 2012 hasta 2019 almacenados en una base de datos relacional. Configurará el entorno de Azure para permitir que los datos relacionales se transfieran desde una base de datos SQL de Azure a un almacén de datos de Azure Synapse Analytics utilizando Azure Data Factory que también se almacena en Azure Data Lake. Utilizará Power BI para visualizar los datos de colisión cargados desde su almacén de datos de Azure Synapse.
 
-In this lab, the dataset you will use contains data about motor vehicle collisions that happened in New Your City from 2012 to 2019 stored in a relational database. You will configure the Azure environment to allow relational data to be transferred from an Azure SQL Database to an Azure Synapse Analytics data warehouse using Azure Data Factory also staging to Azure Data Lake storage. You will use Power BI to visualise collision data loaded from your Azure Synapse data warehouse.
-
-The estimated time to complete this lab is: **45 minutes**.
+El tiempo estimado para completar esta práctica de laboratorio es de: **45 minutos**.
 
 Step     | Description
 -------- | -----
-![1](./Media/Black1.png) | Build an Azure Data Factory Pipeline to copy data from an Azure SQL Database table
-![2](./Media/Black2.png) | Use Azure Data Lake Storage Gen2 as a staging area for Polybase
-![3](./Media/Black3.png) | Load data to an Azure Synapse Analytics table using Polybase
-![4](./Media/Black4.png) | Visualize data from Azure Synapse Analytics using Power BI
+![1](./Media/Black1.png) | Cree una canalización de Azure Data Factory para copiar datos de una tabla de Azure SQL Database
+![2](./Media/Black2.png) | Use Azure Data Lake Storage Gen2 como área de preparación para Polybase
+![3](./Media/Black3.png) | Cargar datos en una tabla de Azure Synapse Analytics con Polybase
+![4](./Media/Black4.png) | VVisualice datos de Azure Synapse Analytics con Power BI
 
 ![](./Lab/Lab1/Media/Lab1-Image51.png)
 
-### [Lab 2: Transform Big Data using Azure Data Factory Mapping Data Flows](./Lab/Lab2/Lab2.md)
-In this lab the dataset you will use contains detailed New York City Yellow Taxi rides for the first half of 2019. You will use Azure Data Factory to download large data files to your data lake. You will generate a daily aggregated summary of all rides from data lake using Mapping Data Flows and save the resulting dataset in your Azure Synapse Analytics. You will use Power BI to visualise summarised taxi ride data.
+### [Lab 2: Transformar macrodatos utilizando flujos de datos de mapeo de Azure Data Factory]
+En este laboratorio, el conjunto de datos que usará contiene viajes detallados en taxis amarillos de la ciudad de Nueva York durante el primer semestre de 2019. Utilizará Azure Data Factory para descargar archivos de datos grandes en su lago de datos. Generará un resumen agregado diario de todos los viajes desde el lago de datos mediante Mapeo de flujos de datos y guardará el conjunto de datos resultante en Azure Synapse Analytics. Utilizará Power BI para visualizar datos resumidos de viajes en taxi.
 
-The estimated time to complete this lab is: **60 minutes**.
+El tiempo estimado para completar esta práctica de laboratorio es de: **60 minutos**.
 
  
-Step     | Description
+Step     | Descripción
 -------- | -----
-![](./Media/Green1.png) | Build an Azure Data Factory Pipeline to copy big data files from shared Azure Storage
-![](./Media/Green2.png) | Ingest data files into your data lake
-![](./Media/Green3.png) | Use Mapping Data Flows to generate a aggregated daily summary and save the resulting dataset into your Azure Synapse Analytics data warehouse.
-![](./Media/Green4.png) | Visualize data from your Azure Synapse Analytics using Power BI
+![](./Media/Green1.png) | Cree una canalización de Azure Data Factory para copiar archivos de big data desde Azure Storage compartido
+![](./Media/Green2.png) | Ingesta archivos de datos en tu lago de datos
+![](./Media/Green3.png) | Use Mapping Data Flows para generar un resumen diario agregado y guarde el conjunto de datos resultante en su almacén de datos de Azure Synapse.
+![](./Media/Green4.png) | Visualice datos de Azure Synapse Analytics con Power BI
 
 ![](./Lab/Lab2/Media/Lab2-Image40.png)
 
