@@ -4,16 +4,12 @@ En este taller aprenderá sobre los conceptos principales relacionados con la an
 
 En los ejercicios de este laboratorio, creará canalizaciones de datos utilizando datos relacionados con la ciudad de Nueva York. El taller fue diseñado para implementar progresivamente una arquitectura de plataforma de datos moderna extendida a partir de una canalización de datos relacionales tradicional. Luego simularemos escenarios de big data con archivos de datos y computación distribuida. Agregamos datos no estructurados e inteligencia artificial a la mezcla y terminamos con análisis de transmisión en tiempo real. Habrá hecho todo eso al final del taller.
 
-**Nota** Este taller es parte de un curso que estará publicado en la plataforma Udemy con el objetivo de ofrecer certificación que valide las competencias realizadas en este taller. Por otro lado, cabe destacar que no fue posible ofrecer en esta plataforma la integración de este taller junto con sus laboratorios por temas de precios. Esto obedece a que - en udemy - todos los cursos publicados no tienen un costo fijo - sino que, por el contrario, son elásticos; es decir, si este taller tiene un costo entre la teoría + los laboratorios en entornos reales Azure alrededor de 100 dólares - Udemy, a través de sus algoritmos podrían rebajarlo a 20 o 15 dólares lo que, en la practica, sería imposible ofrecer los laboratorios bajo esta primicia ya que, como todos ustedes sabrán, estos laboratorios tienen costos fijo en nuestra plataforma Azure.
-
-Por esto, y para las personas que a futuro tomarán este curso a través de udemy - tendrán dos opciones – realizarlo con sus propias suscripciones Azure o a través de nuestra plataforma con un costo fijo sin comprometer sus tarjetas de crédito para estos laboratorios.
-
-**Nota2** ¿Por qué deberías realizar este taller junto con sus laboratorios? Si bien, la teoría de la nube es de muy alto valor - pero la practica es lo que realmente añade el valor agregado en los entornos Cloud - Por esto los talleres + laboratorios tienden a reforzar los conocimientos adquiridos ampliando todo el contexto de aprendizaje.
+**Nota** ¿Por qué deberías realizar este taller junto con sus laboratorios? Si bien, la teoría de la nube es de muy alto valor - pero la practica es lo que realmente añade el valor agregado en los entornos Cloud - Por esto los talleres + laboratorios tienden a reforzar los conocimientos adquiridos ampliando todo el contexto de aprendizaje.
 
 ## Workshop Agenda Propuesta
 El taller se puede completar a su propio ritmo dependiendo de su experiencia previa con las herramientas de Azure DP. Las diapositivas de apoyo estarán disponibles para cada formato.
 
-### **1-Día Formato**
+### **Formato**
 
 #### Slides: [Azure Data Platform End2End - 1 Day](https://bit.ly/2SEqPPB)
 
