@@ -17,13 +17,14 @@ Actividad | Duración
 -------- | ---------
 Resumen del taller | 15 minutos
 Conceptos de la plataforma de datos moderna: Parte I | 30 minutos
-Anexo: Practicas Dafactory & Synapse | 60 minutos
+Anexo: Practicas Dafactory & Synapse | 90 minutos
 **Almacenamiento de datos moderno** |
 Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines| 60 minutos
 Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
 Lab 2: Transformar macrodatos utilizando Azure Data Factory & Mapping Data Flows    | 60 minutos
 **Advanced Analytics** |
 Conceptos de la plataforma de datos moderna: Parte III | 15 minutes
+Anexo: Practicas Spark pyspark | 120 minutos
 Lab 3:  Explore Big Data con Azure Databricks    | 60 minutes
 Conceptos de la plataforma de datos moderna: Parte IV | 15 minutes
 Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 120 minutes
