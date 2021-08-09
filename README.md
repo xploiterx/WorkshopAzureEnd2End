@@ -99,7 +99,7 @@ En esta sección, proporcionará automáticamente todos los recursos de Azure ne
 
 El tiempo estimado para completar esta práctica de laboratorio es de: **30 minutos**.
 
-### [Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines]
+### [Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines](https://bit.ly/2SEqPPB)
 
 En este laboratorio, el conjunto de datos que usará contiene datos sobre colisiones de vehículos motorizados que ocurrieron en New York City desde 2012 hasta 2019 almacenados en una base de datos relacional. Configurará el entorno de Azure para permitir que los datos relacionales se transfieran desde una base de datos SQL de Azure a un almacén de datos de Azure Synapse Analytics utilizando Azure Data Factory que también se almacena en Azure Data Lake. Utilizará Power BI para visualizar los datos de colisión cargados desde su almacén de datos de Azure Synapse.
 
