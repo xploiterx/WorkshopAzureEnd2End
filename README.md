@@ -24,7 +24,7 @@ Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
 Lab 2: Transformar macrodatos utilizando Azure Data Factory & Mapping Data Flows    | 60 minutos
 **Advanced Analytics** |
 Conceptos de la plataforma de datos moderna: Parte III | 15 minutos
-Anexo: Practicas Spark pyspark | 120 minutos
+Anexo: [Practicas Spark pyspark](https://bit.ly/2SEqPPB) | 120 minutos
 Lab 3:  Explore Big Data con Azure Databricks    | 60 minutes
 Conceptos de la plataforma de datos moderna: Parte IV | 15 minutes
 Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 120 minutos
