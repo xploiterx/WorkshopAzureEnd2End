@@ -16,7 +16,7 @@ El taller se puede completar a su propio ritmo dependiendo de su experiencia pre
 Actividad | Duración
 -------- | ---------
 Resumen del taller | 15 minutos
-Conceptos de la plataforma de datos moderna: Parte I | 30 minutos
+Conceptos de la plataforma de datos moderna: Parte I + Practicas | 30 minutos
 **Almacenamiento de datos moderno** |
 Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines| 60 minutos
 Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
