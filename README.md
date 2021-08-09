@@ -16,19 +16,19 @@ El taller se puede completar a su propio ritmo dependiendo de su experiencia pre
 Actividad | Duración
 -------- | ---------
 Resumen del taller | 15 minutos
-Conceptos de la plataforma de datos moderna: Parte I | 15 minutos
+Conceptos de la plataforma de datos moderna: Parte I | 30 minutos
 **Almacenamiento de datos moderno** |
-Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines    | 45 minutos
+Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines    | 60 minutos
 Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
 Lab 2: Transformar macrodatos utilizando Azure Data Factory & Mapping Data Flows    | 60 minutos
 **Advanced Analytics** |
 Conceptos de la plataforma de datos moderna: Parte III | 15 minutes
-Lab 3:  Explore Big Data con Azure Databricks    | 45 minutes
+Lab 3:  Explore Big Data con Azure Databricks    | 60 minutes
 Conceptos de la plataforma de datos moderna: Parte IV | 15 minutes
-Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 75 minutes
+Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 120 minutes
 **Real-time Analytics** |
 Conceptos de la plataforma de datos moderna: Parte V | 15 minutes
-Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics   | 45 minutes
+Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics   | 60 minutes
 
 **IMPORTANT**:
 
@@ -70,7 +70,7 @@ Se deben completar los siguientes requisitos previos antes de comenzar con estos
 * Utilice Edge o Chrome al ejecutar los labs. Internet Explorer puede tener problemas al representar la interfaz de usuario para servicios específicos de Azure.
 
 
-    <br>**IMPORTANTE**:Si implementa los recursos del laboratorio en su propia suscripción, usted es responsable de los cargos relacionados con el uso de los servicios proporcionados. 
+    <br>**IMPORTANTE**: Si implementa los recursos del laboratorio en su propia suscripción, usted es responsable de los cargos relacionados con el uso de los servicios proporcionados. 
   
 ## Guía de laboratorio
 
@@ -121,13 +121,13 @@ El tiempo estimado para completar esta práctica de laboratorio es:  **45 minuto
 
 Step     | Description
 -------- | -----
-![](./Media/Red1.png) |Build an Azure Databricks notebook to explore the data files you saved in your data lake in the previous exercise. You will use Python and SQL commands to open a connection to your data lake and query data from data files.
-![](./Media/Red2.png) |Integrate datasets from Azure Synapse Analytics data warehouse to your big data processing pipeline. Databricks becomes the bridge between your relational and non-relational data stores.
+![](./Media/Red1.png) |Cree un cuaderno de Azure Databricks para explorar los archivos de datos que guardó en su lago de datos en el ejercicio anterior. Utilizará comandos de Python y SQL para abrir una conexión a su lago de datos y consultar datos de archivos de datos.
+![](./Media/Red2.png) |Integré conjuntos de datos del almacén de datos de Azure Synapse Analytics a su canalización de procesamiento de big data. Databricks se convierte en el puente entre sus almacenes de datos relacionales y no relacionales.
 
 ![](./Media/Lab3-Image14.png)
 
 ### [Lab 4: Agregue IA a su canalización de Big Data con Cognitive Services](https://bit.ly/2SEqPPB)
-En este laboratorio, utilizará Azure Data Factory para descargar imágenes de la ciudad de Nueva York en su lago de datos. Luego, como parte de la misma canalización, usará un cuaderno de Azure Databricks para invocar el Servicio cognitivo de visión por computadora para generar documentos de metadatos y guardarlos en su lago de datos. Luego, la canalización de Azure Data Factory finaliza al guardar toda la información de metadatos en una colección de Cosmos DB. Utilizará Power BI para visualizar imágenes de la ciudad de Nueva York y sus metadatos generados por IA.
+En este laboratorio, utilizará Azure Data Factory para descargar imágenes de la ciudad de Nueva York en su lago de datos. Luego, como parte de la misma canalización, usará un cuaderno de Azure Databricks para invocar el Servicio Computer Vision Cognitive Service para generar documentos de metadatos y guardarlos en su lago de datos. Luego, la canalización de Azure Data Factory finaliza al guardar toda la información de metadatos en una colección de Cosmos DB. Utilizará Power BI para visualizar imágenes de la ciudad de Nueva York y sus metadatos generados por IA.
 
 El tiempo estimado para completar esta práctica de laboratorio es: **75 minutos**.
 
