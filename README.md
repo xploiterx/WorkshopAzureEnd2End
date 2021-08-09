@@ -23,14 +23,14 @@ Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pip
 Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
 Lab 2: Transformar macrodatos utilizando Azure Data Factory & Mapping Data Flows    | 60 minutos
 **Advanced Analytics** |
-Conceptos de la plataforma de datos moderna: Parte III | 15 minutes
+Conceptos de la plataforma de datos moderna: Parte III | 15 minutos
 Anexo: Practicas Spark pyspark | 120 minutos
 Lab 3:  Explore Big Data con Azure Databricks    | 60 minutes
 Conceptos de la plataforma de datos moderna: Parte IV | 15 minutes
-Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 120 minutes
+Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 120 minutos
 **Real-time Analytics** |
 Conceptos de la plataforma de datos moderna: Parte V | 15 minutes
-Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics   | 60 minutes
+Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics   | 60 minutos
 
 **IMPORTANT**:
 
