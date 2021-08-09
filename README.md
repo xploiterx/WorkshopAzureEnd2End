@@ -58,7 +58,7 @@ También verá la etiqueta IMPORTANTE al comienzo de cada sección de laboratori
 **Ejecute estos pasos en su computadora host**|
 
 ## Referencias de fuentes de datos
-Los datos de la ciudad de Nueva York utilizados en este laboratorio se obtuvieron del sitio web de datos abiertos de la ciudad de Nueva York: https://opendata.cityofnewyork.us/. Se utilizaron los siguientes conjuntos de datos
+Los datos New York City utilizados en este laboratorio se obtuvieron del sitio web de datos abiertos de New York City: https://opendata.cityofnewyork.us/. Se utilizaron los siguientes conjuntos de datos
     <br>- NYPD Motor Vehicle Collisions: https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95
     <br>- TLC Yellow Taxi Trip Data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
@@ -69,35 +69,20 @@ Se deben completar los siguientes requisitos previos antes de comenzar con estos
 
 * Utilice Edge o Chrome al ejecutar los labs. Internet Explorer puede tener problemas al representar la interfaz de usuario para servicios específicos de Azure.
 
-* Debe tener una cuenta de Azure Pay-As-You-Go con acceso de nivel de administrador o colaborador en su suscripción. Si no tiene una cuenta, puede registrarse para obtener una siguiendo las instrucciones aquí: https://azure.microsoft.com/en-au/pricing/purchase-options/pay-as-you-go/.
 
-    <br>**IMPORTANTE**: las suscripciones gratuitas de Azure tienen restricciones de cuota que impiden que los recursos del taller se implementen correctamente. En su lugar, utilice una suscripción de pago por uso.
-
-    <br>**IMPORTANTE**:Cuando implementa los recursos del laboratorio en su propia suscripción, usted es responsable de los cargos relacionados con el uso de los servicios proporcionados. Para obtener más información sobre la lista de servicios y sugerencias sobre cómo ahorrar dinero al ejecutar estos laboratorios, nosotros te proporcionaremos, una vez comiences con estos labs,  tips para la administración y reducción de costos.
-
-* Los laboratorios 1 a 4 requieren que abra una conexión de escritorio remoto (RDP) a Azure Virtual Machines. Si está utilizando una Mac, asegúrese de tener instalada la última versión del software Microsoft Remote Desktop: https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12
-
-* Lab 5 requiere que tenga una cuenta de Power BI Pro. Si no tiene una cuenta, puede registrarse para una prueba gratuita de 60 días aquí: https://powerbi.microsoft.com/en-us/power-bi-pro/
+    <br>**IMPORTANTE**:Si implementa los recursos del laboratorio en su propia suscripción, usted es responsable de los cargos relacionados con el uso de los servicios proporcionados. 
   
 ## Guía de laboratorio
 
-A lo largo de una serie de 5 laboratorios, implementará progresivamente una arquitectura de plataforma de datos moderna utilizando conjuntos de datos de la ciudad de Nueva York.
+A lo largo de una serie de 5 laboratorios, implementará progresivamente una arquitectura de plataforma de datos moderna utilizando conjuntos de datos New York City.
 
 Comenzará a ingerir datos relacionales sobre colisiones de vehículos motorizados en Manhattan alojados en una base de datos SQL de Azure en su almacén de datos de Azure Synapse Analytics. Luego, presentaremos los conceptos de lago de datos y desafíos de big data y los pondrá en práctica mediante la ingesta y el procesamiento de más de 50 millones de registros de viajes en taxis amarillos almacenados como archivos de datos grandes almacenados en su lago de datos.
 
-Luego, usará Databricks y el poder de los clústeres Spark para explorar archivos de big data. Luego, incorporará AI en su canal de datos invocando la API de Cognitive Services Computer Vision para generar automáticamente metadatos para fotografías de calles de la ciudad de Nueva York y almacenar los metadatos en una base de datos de Cosmos DB. Finalmente, utilizará una LogicApp para simular transacciones de compra de acciones de alta frecuencia como fuente de transmisión de eventos que capturará, almacenará y procesará en tiempo real con Event Hubs, Stream Analytics y Power BI.
+Luego, usará Databricks y el poder de los clústeres Spark para explorar archivos de big data. Luego, incorporará AI en su canal de datos invocando la API de Cognitive Services Computer Vision para generar automáticamente metadatos para fotografías de calles de la ciudad de Nueva York y almacenará los metadatos en una base de datos de Cosmos DB. Finalmente, utilizará LogicApp para simular transacciones de compra de acciones de alta frecuencia como fuente de transmisión de eventos que capturará, almacenará y procesará en tiempo real con Event Hubs, Stream Analytics y Power BI.
 
 Al final del taller, habrá implementado la arquitectura del laboratorio a la que se hace referencia a continuación:
 
 ![](./Media/LabArchitecture.jpg)
-
-### [Lab 0: Deploy Azure Data Platform End2End to your subscription](https://bit.ly/2SEqPPB)
-
-**IMPORTANTE**: debe omitir este laboratorio si está ejecutando los labs a través de las suscripciones proporcionadas por TeamWorks. Todos los servicios de Azure se implementarán cuando active su registro.
-
-En esta sección, proporcionará automáticamente todos los recursos de Azure necesarios para completar los laboratorios del 1 al 5. Usaremos una plantilla ARM predefinida con la definición de todos los servicios de Azure utilizados para ingerir, almacenar, procesar y visualizar datos.
-
-El tiempo estimado para completar esta práctica de laboratorio es de: **30 minutos**.
 
 ### [Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines](https://bit.ly/2SEqPPB)
 
