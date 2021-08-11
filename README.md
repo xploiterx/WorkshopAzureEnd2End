@@ -21,6 +21,7 @@ Anexo: [Practicas Data Factory & Synapse](https://bit.ly/3fUU7C2) | 120 minutos
 **Almacenamiento de datos moderno** |
 Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines| 60 minutos
 Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
+Anexo: [Azure Data Lakes](https://bit.ly/3fUU7C2) | 120 minutos
 Lab 2: Transformar macrodatos utilizando Azure Data Factory & Mapping Data Flows    | 60 minutos
 **Advanced Analytics** |
 Conceptos de la plataforma de datos moderna: Parte III | 15 minutos
