@@ -79,7 +79,7 @@ Se deben completar los siguientes requisitos previos antes de comenzar con estos
 
 A lo largo de una serie de 5 laboratorios, implementará progresivamente una arquitectura de plataforma de datos moderna utilizando conjuntos de datos New York City.
 
-Comenzará a ingerir datos relacionales sobre colisiones de vehículos motorizados en Manhattan alojados en una base de datos SQL de Azure en su almacén de datos de Azure Synapse Analytics. Luego, presentaremos los conceptos de lago de datos y desafíos de big data y los pondrá en práctica mediante la ingesta y el procesamiento de más de 50 millones de registros de viajes en taxis amarillos almacenados como archivos de datos grandes almacenados en su lago de datos.
+Comenzará a ingerir datos relacionales sobre colisiones de vehículos motorizados en Manhattan alojados en una base de datos SQL de Azure en nuestro almacén de datos de Azure Synapse Analytics. Luego, presentaremos los conceptos de lago de datos y desafíos de big data y los pondrá en práctica mediante la ingesta y el procesamiento de más de 50 millones de registros de viajes en taxis amarillos almacenados como archivos de datos grandes en nuestro lago de datos.
 
 Luego, usará Databricks y el poder de los clústeres Spark para explorar archivos de big data. Luego, incorporará AI en su canal de datos invocando la API de Cognitive Services Computer Vision para generar automáticamente metadatos para fotografías de calles de la ciudad de Nueva York y almacenará los metadatos en una base de datos de Cosmos DB. Finalmente, utilizará LogicApp para simular transacciones de compra de acciones de alta frecuencia como fuente de transmisión de eventos que capturará, almacenará y procesará en tiempo real con Event Hubs, Stream Analytics y Power BI.
 
