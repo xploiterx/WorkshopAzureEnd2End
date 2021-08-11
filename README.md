@@ -1,4 +1,4 @@
-# Azure Modern Data Platform End2End V2
+# Azure Modern Data Platform End2End
 
 En este taller aprenderá sobre los conceptos principales relacionados con la analítica avanzada y el procesamiento de Big Data y cómo se puede utilizar Azure Data Services para implementar una arquitectura de almacenamiento de datos moderna. Así mismo Aprenderá qué servicios de Azure puede aprovechar para establecer una plataforma de datos sólida para ingerir, procesar y visualizar rápidamente datos de una gran variedad de fuentes de datos. Se ha demostrado que la arquitectura de referencia que creará como parte de este ejercicio le brinda la flexibilidad y escalabilidad para crecer y manejar grandes volúmenes de datos y mantener un nivel óptimo de rendimiento.
 
@@ -11,20 +11,20 @@ El taller se puede completar a su propio ritmo dependiendo de su experiencia pre
 
 ### **Formato**
 
-#### Slides: [Azure Data Platform End2End - 1 Day](https://bit.ly/2SEqPPB)
+#### Slides: [Azure Data Platform End2End](https://bit.ly/3fUU7C2)
 
 Actividad | Duración
 -------- | ---------
 Resumen del taller | 15 minutos
 Conceptos de la plataforma de datos moderna: Parte I | 30 minutos
-Anexo: [Practicas Data Factory & Synapse](https://bit.ly/2SEqPPB) | 90 minutos
+Anexo: [Practicas Data Factory & Synapse](https://bit.ly/3fUU7C2) | 90 minutos
 **Almacenamiento de datos moderno** |
 Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines| 60 minutos
 Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
 Lab 2: Transformar macrodatos utilizando Azure Data Factory & Mapping Data Flows    | 60 minutos
 **Advanced Analytics** |
 Conceptos de la plataforma de datos moderna: Parte III | 15 minutos
-Anexo: [Practicas Spark pyspark](https://bit.ly/2SEqPPB) | 120 minutos
+Anexo: [Practicas Spark pyspark](https://bit.ly/3fUU7C2) | 120 minutos
 Lab 3:  Explore Big Data con Azure Databricks    | 60 minutes
 Conceptos de la plataforma de datos moderna: Parte IV | 15 minutes
 Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 120 minutos
@@ -116,7 +116,7 @@ Step     | Descripción
 
 ![](./Media/Lab2-Image40.png)
 
-### [Lab 3: Explore Big Data using Azure Databricks](https://bit.ly/2SEqPPB)
+### [Lab 3: Explore Big Data using Azure Databricks](https://bit.ly/3fUU7C2)
 En este laboratorio, usará Azure Databricks para explorar los archivos de datos de taxis de Nueva York que guardó en su lago de datos en el Laboratorio 2. Con un cuaderno de Databricks, se conectará al lago de datos y consultará los detalles del viaje en taxi para la limpieza de datos y para aplicar la columna estándar. definiciones para el conjunto de datos resultante. Al finalizar, el conjunto de datos resultante debe guardarse en una tabla Spark utilizando archivos Parquet que se encuentran en el contenedor NYCTaxiData-Curated en su cuenta de almacenamiento SynapseDataLake.
 
 El tiempo estimado para completar esta práctica de laboratorio es:  **45 minutos**.
@@ -128,7 +128,7 @@ Step     | Description
 
 ![](./Media/Lab3-Image14.png)
 
-### [Lab 4: Agregue IA a su canalización de Big Data con Cognitive Services](https://bit.ly/2SEqPPB)
+### [Lab 4: Agregue IA a su canalización de Big Data con Cognitive Services](https://bit.ly/3fUU7C2)
 En este laboratorio, utilizará Azure Data Factory para descargar imágenes de la ciudad de Nueva York en su lago de datos. Luego, como parte de la misma canalización, usará un cuaderno de Azure Databricks para invocar el Servicio Computer Vision Cognitive Service para generar documentos de metadatos y guardarlos en su lago de datos. Luego, la canalización de Azure Data Factory finaliza al guardar toda la información de metadatos en una colección de Cosmos DB. Utilizará Power BI para visualizar imágenes de la ciudad de Nueva York y sus metadatos generados por IA.
 
 El tiempo estimado para completar esta práctica de laboratorio es: **75 minutos**.
@@ -144,7 +144,7 @@ Step     | Description
 
 ![](./Media/Lab4-Image70.png)
 
-### [Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics](https://bit.ly/2SEqPPB)
+### [Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics](https://bit.ly/3fUU7C2)
 En este laboratorio, utilizará una aplicación Azure Logic para simular un flujo de transacciones de compra de acciones de NYSE. La aplicación lógica enviará los mensajes a Event Hubs. Luego, utilizará Stream Analytics para recibir y procesar el flujo y realizar agregaciones para calcular el número de transacciones y la cantidad negociada en los últimos 10 segundos. Stream Analytics enviará los resultados a un conjunto de datos en tiempo real en Power BI.
 
 El tiempo estimado para completar esta práctica de laboratorio es: **45 minutos**.
