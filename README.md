@@ -9,9 +9,9 @@ En los ejercicios de este laboratorio, creará canalizaciones de datos utilizand
 ## Workshop Agenda Propuesta
 El taller se puede completar a su propio ritmo dependiendo de su experiencia previa con las herramientas de Azure DP. Las diapositivas de apoyo estarán disponibles para cada formato.
 
-### **Formato**
+#### PPT Slides: [Azure Data Platform End2End](https://bit.ly/3xFz2lg)
 
-#### Slides: [Azure Data Platform End2End](https://bit.ly/3fUU7C2)
+### **Formato**
 
 Actividad | Duración
 -------- | ---------
